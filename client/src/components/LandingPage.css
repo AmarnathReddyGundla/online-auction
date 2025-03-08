@@ -1,0 +1,78 @@
+/* LandingPage.css */
+.landing-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+
+    padding: 20px;
+  }
+
+  .footer{
+    background-color: #4ca5af;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .nav-home{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4ca5af;
+    color: white;
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .hero {
+    margin: 40px 0;
+    padding: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #af4c60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0e90c8;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+  }
+  
+  .feature {
+    width: 250px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
